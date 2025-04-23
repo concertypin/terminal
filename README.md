@@ -1,3 +1,9 @@
+# Modified!
+This is Windows Terminal repo, but Ctrl-MouseWheel and trackpad pinch-to-zoom disabled.
+Actually, it is not disabled, but zoom speed is changed from [`fontDelta` to `fontDelta*0`](https://github.com/microsoft/terminal/commit/ffd2907871f02df1b9d9a35361dacb46473c9c53). Anyways, it works!
+Non-modified README.md under this line...
+
+----
 ![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)
 
 [![Terminal Build Status](https://dev.azure.com/shine-oss/terminal/_apis/build/status%2FTerminal%20CI?branchName=main)](https://dev.azure.com/shine-oss/terminal/_build/latest?definitionId=1&branchName=main)
