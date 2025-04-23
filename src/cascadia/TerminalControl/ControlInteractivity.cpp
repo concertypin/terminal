@@ -550,7 +550,7 @@ namespace winrt::Microsoft::Terminal::Control::implementation
     void ControlInteractivity::_mouseZoomHandler(const int32_t mouseDelta) const
     {
         const auto fontDelta = mouseDelta < 0 ? -1.0f : 1.0f;
-        _core->AdjustFontSize(fontDelta);
+        _core->AdjustFontSize(fontDelta*0);
     }
 
     // Method Description:
